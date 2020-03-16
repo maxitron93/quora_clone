@@ -4,6 +4,7 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from rest_framework import status
 from account.api.serializers import RegistrationSerializer
+from datetime import datetime
 
 # Returns the token if valid email and password is provided
 class Login(ObtainAuthToken):
@@ -11,13 +12,16 @@ class Login(ObtainAuthToken):
     def post(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data, context={'request': request})
         serializer.is_valid(raise_exception=True)
-        account = serializer.validated_data['user']
-        token = Token.objects.get(user=account)
+        account = serializer.validated_data['user'] # Get the user
+        Token.objects.get(user=account).delete() # Delete the old token
+        token = Token.objects.create(user=account) # Create a new token
         data = {
             'token': token.key,
             'user_id': account.pk,
             'email': account.email
         }
+        account.last_login = datetime.now() # Update last_login
+        account.save()
         return Response(data)
 
 # Requires email, password, password2
