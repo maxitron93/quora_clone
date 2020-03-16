@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="quora_clone_project" type="Python.DjangoServer" factoryName="Django server">
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584329359539</updated>
       <workItem from="1584329363376" duration="14000" />
-      <workItem from="1584329405658" duration="1163000" />
+      <workItem from="1584329405658" duration="1836000" />
     </task>
     <servers />
   </component>
@@ -73,9 +73,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1584329494427" />
-    <state x="141" y="346" key="SettingsEditor" timestamp="1584329565152">
+    <state x="141" y="346" key="SettingsEditor" timestamp="1584330881137">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="141" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584329565152" />
+    <state x="141" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584330881137" />
+    <state x="371" y="411" width="672" height="678" key="search.everywhere.popup" timestamp="1584330889074">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="371" y="411" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1584330889074" />
   </component>
 </project>
