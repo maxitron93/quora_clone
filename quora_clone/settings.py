@@ -32,10 +32,13 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 
-    # My apps
+    # Third part apps
     'rest_framework',
-    'account',
     'rest_framework.authtoken',
+
+    # My apps
+    'account',
+    'question',
 
     # Django apps
     'django.contrib.admin',

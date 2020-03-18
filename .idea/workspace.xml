@@ -11,7 +11,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZC3gXHcLsm0RLUIYEvYuh7uqql" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="quora_clone_project" type="Python.DjangoServer" factoryName="Django server">
@@ -61,22 +61,28 @@
       <option name="presentableId" value="Default" />
       <updated>1584329359539</updated>
       <workItem from="1584329363376" duration="14000" />
-      <workItem from="1584329405658" duration="6821000" />
+      <workItem from="1584329405658" duration="6944000" />
+      <workItem from="1584502051707" duration="2474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="420" y="458" key="FileChooserDialogImpl" timestamp="1584329494427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1584329494427" />
-    <state x="141" y="346" key="SettingsEditor" timestamp="1584330881137">
+    <state x="141" y="346" key="SettingsEditor" timestamp="1584502091066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="141" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584330881137" />
+    <state x="141" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584502091066" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1584335504371">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
