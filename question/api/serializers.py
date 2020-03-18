@@ -6,7 +6,4 @@ class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
         fields = '__all__'
-
-    # def __init__(self, *args, **kwargs):
-    #     self.author = kwargs.pop('author')
-    #     super().__init__(*args, **kwargs)
+        read_only_fields = ['num_likes', 'num_answers', 'create_at', 'updated_at']
